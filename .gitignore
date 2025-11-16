@@ -1,5 +1,6 @@
 #data
 01-intro/data/
+01-intro/models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
