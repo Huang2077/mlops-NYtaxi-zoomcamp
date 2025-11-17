@@ -1,6 +1,10 @@
 #data
-01-intro/data/
-01-intro/models/
+*.parquet
+*.db
+
+#model
+*.bin
+*.xgb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
