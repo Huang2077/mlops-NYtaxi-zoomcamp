@@ -1,0 +1,22 @@
+artifact_path: /workspaces/mlops-NYtaxi-zoomcamp/02-experiment-tracking/mlruns/1/models/m-0c8f0b2daf504ef4ad50b4731fba5109/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.25
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 2.1.4
+mlflow_version: 3.1.4
+model_id: m-0c8f0b2daf504ef4ad50b4731fba5109
+model_size_bytes: 3152966
+model_uuid: m-0c8f0b2daf504ef4ad50b4731fba5109
+prompts: null
+run_id: b63126e81c1e46e196fa354018430dd0
+utc_time_created: '2025-11-18 08:37:24.294910'
