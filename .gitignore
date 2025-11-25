@@ -2,6 +2,9 @@
 *.parquet
 *.db
 
+#secrets
+02-experiment-tracking/scenario/command_on_aws.md
+
 #model
 *.bin
 *.xgb
